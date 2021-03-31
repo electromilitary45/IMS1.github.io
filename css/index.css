@@ -17,7 +17,9 @@ body{
 }
 
 /*EMPIEZA CARUSEL*/
-
+.carouselExampleIndicators{
+  width: 50%;
+}
 
 /*TERMINA CARUSEL*/
 .barranav{
