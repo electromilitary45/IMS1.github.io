@@ -30,6 +30,21 @@ section #principal{
 	text-align: center;
 	width: 100%;
 }
+#tiempo{
+  padding: 10px;
+  margin: 10px;
+  border-radius: 2px;
+  border-style: solid;
+  height: 80px;
+  width: 120px;
+  display: block;
+}
+#minutos{
+  padding: 5px;
+}
+#segundos{
+  padding: 5px;
+}
 article #commandos{
 	border: 1px solid #B15456;
 	display: inline-block;

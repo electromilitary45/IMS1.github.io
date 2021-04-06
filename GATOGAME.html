@@ -10,6 +10,9 @@
 		<script src="js/bootstrap.js" type="text/javascript"></script>
 		<script src="js/jquery-3.6.0.min.js" type="text/javascript"></script>
 		<script src="js/gatogame.js" type="text/javascript"></script>
+		<script src="js/cronometro.js" type="text/javascript"></script>
+		<script src="js/ejecutar.js" type="text/javascript"></script>
+
 		<link rel="icon" href="img/android-chrome-192x192.ico">
 		
 		
@@ -49,16 +52,23 @@
 			<div class="todotext" style="align">
 		
 				
-				<section class="principal1" id="principal" style="position: relative">
+				<section class="principal1" id="principal" >
 					
 					<article class="commandos1" id="comandos"> <!--PARTE IZQUIERDA-->
+						<div id="tiempo">
+							<p>CONTADOR</p>
+							<p id="contador">
+								<span id="minutos">00 </span>:
+								<span id="segundos">00</span>
+							</p>
+						</div>
 						Jugador 1:<input type="text" id="jugador1" style="color: black"><br>	
 						Jugador2:<input type="text" id="jugador2" style="color: black"><br>
 						<input type="button" id="iniciar" value="INICIAR"><br>
 						<label id="turnoJugador"></label>
 					</article>
 					
-					<article class="tablero1" id="tablero" > <!--Parte Derecha-->
+					<article class="tablero1" id="tablero" style="display: block;"> <!--Parte Derecha-->
 						<!--PRIMERA FILA-->
 						<input type="button" id="b0" onClick="colocar(this)">
 						<input type="button" id="b1" onClick="colocar(this)">
