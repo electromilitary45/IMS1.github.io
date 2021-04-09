@@ -19,6 +19,7 @@ function IniciarReloj(){
         }
 
         //aqui se imprime los mins y segs
+        
         if(mins<10){m.innerHTML="0"+mins;}
             else{m.innerHTML=mins;}//fin mins
 
