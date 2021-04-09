@@ -64,7 +64,7 @@ function colocar(boton){
 	revisar();
 }//fin colocar
 
-function revisar(){
+function revisar(){ //revisa quien gano (falta cuando nadie gana)
 	if((tab[0].value == "X" && tab[1].value=="X" && tab[2].value=="X")||(tab[3].value == "X" && tab[4].value=="X" && tab[5].value=="X")||(tab[6].value == "X"&&tab[7].value=="X"&&tab[8].value=="X")||(tab[0].value == "X" && tab[3].value=="X" && tab[6].value=="X")||(tab[1].value == "X" && tab[4].value=="X" && tab[7].value=="X")||(tab[2].value == "X" && tab[5].value=="X" && tab[8].value=="X")||(tab[0].value == "X" && tab[4].value=="X" && tab[8].value=="X")||(tab[2].value == "X" && tab[4].value=="X" && tab[6].value=="X"))
 	{ alert("Felicidades ganaste Jugador"+jugador1.value);
 		bandera=false;}//fin if jugador1
